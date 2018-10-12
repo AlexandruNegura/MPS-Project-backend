@@ -31,7 +31,7 @@ public class CardController {
     }
 
     @RequestMapping(value = "/card", method = RequestMethod.POST)
-    ResponseEntity<HttpStatus> findCard(@RequestBody Card card) {
+    ResponseEntity<HttpStatus> addCard(@RequestBody Card card) {
         cardService.addCard(card);
         return new ResponseEntity<>(HttpStatus.OK);
     }
