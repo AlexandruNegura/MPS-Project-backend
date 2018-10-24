@@ -5,20 +5,20 @@ import javax.persistence.Entity;
 
 @Entity
 public class PlayerCard extends HumanCard {
-    @Column(name = "atack")
-    private Integer atack;
+    @Column(name = "attack")
+    private Integer attack;
 
     @Column(name = "defense")
     private Integer defense;
 
-    @Column(name = "nationalityAtackModifier")
-    private Integer nationalityAtackModifier;
+    @Column(name = "nationalityAttackModifier")
+    private Integer nationalityAttackModifier;
 
     @Column(name = "nationalityDefenseModifier")
     private Integer nationalityDefenseModifier;
 
-    @Column(name = "clubAtackModifier")
-    private Integer clubAtackModifier;
+    @Column(name = "clubAttackModifier")
+    private Integer clubAttackModifier;
 
     @Column(name = "clubDefenseModifier")
     private Integer clubDefenseModifier;
@@ -30,28 +30,28 @@ public class PlayerCard extends HumanCard {
                       Integer type,
                       String nationality,
                       String club,
-                      Integer atack,
+                      Integer attack,
                       Integer defense,
-                      Integer nationalityAtackModifier,
+                      Integer nationalityAttackModifier,
                       Integer nationalityDefenseModifier,
-                      Integer clubAtackModifier,
+                      Integer clubAttackModifier,
                       Integer clubDefenseModifier, Integer position) {
         super(name, type, nationality, club);
-        this.atack = atack;
+        this.attack = attack;
         this.defense = defense;
-        this.nationalityAtackModifier = nationalityAtackModifier;
+        this.nationalityAttackModifier = nationalityAttackModifier;
         this.nationalityDefenseModifier = nationalityDefenseModifier;
-        this.clubAtackModifier = clubAtackModifier;
+        this.clubAttackModifier = clubAttackModifier;
         this.clubDefenseModifier = clubDefenseModifier;
         this.position = position;
     }
 
-    public Integer getAtack() {
-        return atack;
+    public Integer getAttack() {
+        return attack;
     }
 
-    public void setAtack(Integer atack) {
-        this.atack = atack;
+    public void setAttack(Integer attack) {
+        this.attack = attack;
     }
 
     public Integer getDefense() {
@@ -62,12 +62,12 @@ public class PlayerCard extends HumanCard {
         this.defense = defense;
     }
 
-    public Integer getNationalityAtackModifier() {
-        return nationalityAtackModifier;
+    public Integer getNationalityAttackModifier() {
+        return nationalityAttackModifier;
     }
 
-    public void setNationalityAtackModifier(Integer nationalityAtackModifier) {
-        this.nationalityAtackModifier = nationalityAtackModifier;
+    public void setNationalityAttackModifier(Integer nationalityAttackModifier) {
+        this.nationalityAttackModifier = nationalityAttackModifier;
     }
 
     public Integer getNationalityDefenseModifier() {
@@ -78,12 +78,12 @@ public class PlayerCard extends HumanCard {
         this.nationalityDefenseModifier = nationalityDefenseModifier;
     }
 
-    public Integer getClubAtackModifier() {
-        return clubAtackModifier;
+    public Integer getClubAttackModifier() {
+        return clubAttackModifier;
     }
 
-    public void setClubAtackModifier(Integer clubAtackModifier) {
-        this.clubAtackModifier = clubAtackModifier;
+    public void setClubAttackModifier(Integer clubAttackModifier) {
+        this.clubAttackModifier = clubAttackModifier;
     }
 
     public Integer getClubDefenseModifier() {
