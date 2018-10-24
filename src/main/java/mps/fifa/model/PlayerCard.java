@@ -14,8 +14,8 @@ public class PlayerCard extends HumanCard {
     @Column(name = "nationalityAtackModifier")
     private Integer nationalityAtackModifier;
 
-    @Column(name = "nationalotyDefenseModifier")
-    private Integer nationalotyDefenseModifier;
+    @Column(name = "nationalityDefenseModifier")
+    private Integer nationalityDefenseModifier;
 
     @Column(name = "clubAtackModifier")
     private Integer clubAtackModifier;
@@ -33,14 +33,14 @@ public class PlayerCard extends HumanCard {
                       Integer atack,
                       Integer defense,
                       Integer nationalityAtackModifier,
-                      Integer nationalotyDefenseModifier,
+                      Integer nationalityDefenseModifier,
                       Integer clubAtackModifier,
                       Integer clubDefenseModifier, Integer position) {
         super(name, type, nationality, club);
         this.atack = atack;
         this.defense = defense;
         this.nationalityAtackModifier = nationalityAtackModifier;
-        this.nationalotyDefenseModifier = nationalotyDefenseModifier;
+        this.nationalityDefenseModifier = nationalityDefenseModifier;
         this.clubAtackModifier = clubAtackModifier;
         this.clubDefenseModifier = clubDefenseModifier;
         this.position = position;
@@ -70,12 +70,12 @@ public class PlayerCard extends HumanCard {
         this.nationalityAtackModifier = nationalityAtackModifier;
     }
 
-    public Integer getNationalotyDefenseModifier() {
-        return nationalotyDefenseModifier;
+    public Integer getNationalityDefenseModifier() {
+        return nationalityDefenseModifier;
     }
 
-    public void setNationalotyDefenseModifier(Integer nationalotyDefenseModifier) {
-        this.nationalotyDefenseModifier = nationalotyDefenseModifier;
+    public void setNationalityDefenseModifier(Integer nationalityDefenseModifier) {
+        this.nationalityDefenseModifier = nationalityDefenseModifier;
     }
 
     public Integer getClubAtackModifier() {
