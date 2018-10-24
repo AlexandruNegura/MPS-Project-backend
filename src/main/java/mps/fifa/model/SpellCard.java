@@ -28,11 +28,24 @@ public class SpellCard extends Card {
     @Column(name = "threshold")
     private Integer threshold;
 
+    @Column(name = "attack")
+    private Integer attack;
+
+    @Column(name = "defense")
+    private Integer defense;
+
+    @Column(name = "destroy")
+    private Boolean destroy;
+
     public SpellCard(String name,
                      Integer type,
                      Constants.Layer layer,
                      Constants.MoreOrLess moreOrLess,
-                     Constants.Target target, String targetNationality, String targetClub, Integer threshold) {
+                     Constants.Target target,
+                     String targetNationality,
+                     String targetClub,
+                     Integer threshold,
+                     Integer attack, Integer defense, Boolean destroy) {
         super(name, type);
         this.layer = layer;
         this.moreOrLess = moreOrLess;
@@ -40,6 +53,9 @@ public class SpellCard extends Card {
         this.targetNationality = targetNationality;
         this.targetClub = targetClub;
         this.threshold = threshold;
+        this.attack = attack;
+        this.defense = defense;
+        this.destroy = destroy;
     }
 
     public Constants.Layer getLayer() {
@@ -88,5 +104,29 @@ public class SpellCard extends Card {
 
     public void setThreshold(Integer threshold) {
         this.threshold = threshold;
+    }
+
+    public Integer getAttack() {
+        return attack;
+    }
+
+    public void setAttack(Integer attack) {
+        this.attack = attack;
+    }
+
+    public Integer getDefense() {
+        return defense;
+    }
+
+    public void setDefense(Integer defense) {
+        this.defense = defense;
+    }
+
+    public Boolean getDestroy() {
+        return destroy;
+    }
+
+    public void setDestroy(Boolean destroy) {
+        this.destroy = destroy;
     }
 }
