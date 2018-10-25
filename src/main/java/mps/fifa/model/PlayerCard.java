@@ -24,7 +24,7 @@ public class PlayerCard extends HumanCard {
     private Integer clubDefenseModifier;
 
     @Column(name = "position")
-    private Integer position;
+    private String position;
 
     public PlayerCard(String name,
                       Integer type,
@@ -35,7 +35,7 @@ public class PlayerCard extends HumanCard {
                       Integer nationalityAttackModifier,
                       Integer nationalityDefenseModifier,
                       Integer clubAttackModifier,
-                      Integer clubDefenseModifier, Integer position) {
+                      Integer clubDefenseModifier, String position) {
         super(name, type, nationality, club);
         this.attack = attack;
         this.defense = defense;
@@ -94,11 +94,11 @@ public class PlayerCard extends HumanCard {
         this.clubDefenseModifier = clubDefenseModifier;
     }
 
-    public Integer getPosition() {
+    public String getPosition() {
         return position;
     }
 
-    public void setPosition(Integer position) {
+    public void setPosition(String position) {
         this.position = position;
     }
 }
