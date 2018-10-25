@@ -16,6 +16,6 @@ public class Constants {
     public enum Target {
         WHOLE_BOARD,
         ENEMY_FIELD,
-        YOUT_FIELD
+        YOUR_FIELD
     }
 }
