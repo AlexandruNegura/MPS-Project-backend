@@ -4,33 +4,39 @@ import com.fasterxml.jackson.annotation.JsonAutoDetect;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.MappedSuperclass;
 
 @JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.NONE,
                 setterVisibility = JsonAutoDetect.Visibility.ANY,
                 getterVisibility = JsonAutoDetect.Visibility.ANY,
                 isGetterVisibility = JsonAutoDetect.Visibility.ANY)
-@Entity
+@MappedSuperclass
 public class Card extends Id{
 
-    @Column(name = "title")
-    private String title;
+    @Column(name = "name")
+    private String name;
 
-    @Column(name = "description")
-    private String description;
+    @Column(name = "type")
+    private Integer type;
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getDescription() {
-        return description;
+    public Integer getType() {
+        return type;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setType(Integer type) {
+        this.type = type;
+    }
+
+    public Card(String name, Integer type) {
+        this.name = name;
+        this.type = type;
     }
 }
