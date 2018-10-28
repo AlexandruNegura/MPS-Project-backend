@@ -1,0 +1,180 @@
+50,TAGLIAFICO Nicolas,0,Argentina,AFC Ajax (NED),0,5,0,0,0,0,DF
+51,FAZIO Federico,0,Argentina,AS Roma (ITA),3,6,0,0,0,0,DF
+52,MASCHERANO Javier,0,Argentina,Hebei China Fortune FC (CHN),1,7,0,0,0,0,DF
+53,OTAMENDI Nicolas,0,Argentina,Manchester City FC (ENG),2,8,0,0,0,0,DF
+54,AGUERO Sergio,0,Argentina,Manchester City FC (ENG),5,0,0,0,0,0,FW
+55,DYBALA Paulo,0,Argentina,Juventus FC (ITA),6,3,0,0,0,0,FW
+56,ARMANI Franco,0,Argentina,CA River Plate (ARG),0,10,0,0,0,0,GK
+57,BIGLIA Lucas,0,Argentina,AC Milan (ITA),5,7,0,0,0,0,MF
+58,BANEGA Ever,0,Argentina,Sevilla FC (ESP),6,8,0,0,0,0,MF
+59,DI MARIA Angel,0,Argentina,Paris Saint-Germain FC (FRA),7,10,0,0,0,0,MF
+60,LO CELSO Giovani,0,Argentina,Paris Saint-Germain FC (FRA),8,6,0,0,0,0,MF
+61,PAVON Cristian,0,Argentina,CA Boca Juniors (ARG),9,5,0,0,0,0,MF
+62,ALDERWEIRELD Toby,0,Belgium,Tottenham Hotspur FC (ENG),0,9,0,0,0,0,DF
+63,VERMAELEN Thomas,0,Belgium,FC Barcelona (ESP),3,10,0,0,0,0,DF
+64,KOMPANY Vincent,0,Belgium,Manchester City FC (ENG),1,5,0,0,0,0,DF
+65,VERTONGHEN Jan,0,Belgium,Tottenham Hotspur FC (ENG),2,6,0,0,0,0,DF
+66,MEUNIER Thomas,0,Belgium,Paris Saint-Germain FC (FRA),0,7,0,0,0,0,DF
+67,DENDONCKER Leander,0,Belgium,RSC Anderlecht (BEL),3,8,0,0,0,0,DF
+68,MERTENS Dries,0,Belgium,SSC Napoli (ITA),7,1,0,0,0,0,FW
+69,BATSHUAYI Michy,0,Belgium,Borussia Dortmund (GER),8,2,0,0,0,0,FW
+70,COURTOIS Thibaut,0,Belgium,Chelsea FC (ENG),2,9,0,0,0,0,GK
+71,FELLAINI Marouane,0,Belgium,Manchester United FC (ENG),10,9,0,0,0,0,MF
+72,HAZARD Thorgan,0,Belgium,VfL Borussia Mönchengladbach (GER),5,7,0,0,0,0,MF
+73,TIELEMANS Youri,0,Belgium,AS Monaco (FRA),6,9,0,0,0,0,MF
+74,MIRANDA,0,Brazil,FC Internazionale (ITA),1,9,0,0,0,0,DF
+75,FILIPE LUIS,0,Brazil,Atletico Madrid (ESP),2,10,0,0,0,0,DF
+76,MARCELO,0,Brazil,Real Madrid CF (ESP),0,5,0,0,0,0,DF
+77,MARQUINHOS,0,Brazil,Paris Saint-Germain FC (FRA),3,6,0,0,0,0,DF
+78,DANILO,0,Brazil,Manchester City FC (ENG),1,7,0,0,0,0,DF
+79,FAGNER,0,Brazil,SC Corinthians (BRA),2,8,0,0,0,0,DF
+80,DOUGLAS COSTA,0,Brazil,Juventus FC (ITA),9,0,0,0,0,0,FW
+81,GABRIEL JESUS,0,Brazil,Manchester City FC (ENG),10,3,0,0,0,0,FW
+82,ALISSON,0,Brazil,AS Roma (ITA),1,8,0,0,0,0,GK
+83,CASEMIRO,0,Brazil,Real Madrid CF (ESP),7,8,0,0,0,0,MF
+84,PHILIPPE COUTINHO,0,Brazil,FC Barcelona (ESP),8,6,0,0,0,0,MF
+85,WILLIAN,0,Brazil,Chelsea FC (ENG),9,10,0,0,0,0,MF
+86,MURILLO Oscar,0,Colombia,CF Pachuca (MEX),0,9,0,0,0,0,DF
+87,ARIAS Santiago,0,Colombia,PSV Eindhoven (NED),3,10,0,0,0,0,DF
+88,MINA Yerry,0,Colombia,FC Barcelona (ESP),1,5,0,0,0,0,DF
+89,BACCA Carlos,0,Colombia,Villarreal CF (ESP),5,1,0,0,0,0,FW
+90,MURIEL Luis,0,Colombia,Sevilla FC (ESP),6,2,0,0,0,0,FW
+91,BORJA Miguel,0,Colombia,SE Palmeiras (BRA),7,0,0,0,0,0,FW
+92,IZQUIERDO Jose,0,Colombia,Brighton & Hove Albion FC (ENG),8,3,0,0,0,0,FW
+93,OSPINA David,0,Colombia,Arsenal FC (ENG),3,7,0,0,0,0,GK
+94,VARGAS Camilo,0,Colombia,AC Deportivo Cali (COL),0,10,0,0,0,0,GK
+95,CUADRADO Jose,0,Colombia,CD Once Caldas (COL),2,9,0,0,0,0,GK
+96,BARRIOS Wilmar,0,Colombia,CA Boca Juniors (ARG),10,6,0,0,0,0,MF
+97,AGUILAR Abel,0,Colombia,AC Deportivo Cali (COL),5,7,0,0,0,0,MF
+98,VRSALJKO Sime,0,Croatia,Atletico Madrid (ESP),2,6,0,0,0,0,DF
+99,STRINIC Ivan,0,Croatia,UC Sampdoria (ITA),0,7,0,0,0,0,DF
+100,CORLUKA Vedran,0,Croatia,FC Lokomotiv Moscow (RUS),3,8,0,0,0,0,DF
+101,PIVARIC Josip,0,Croatia,FC Dynamo Kyiv (UKR),1,9,0,0,0,0,DF
+102,PERISIC Ivan,0,Croatia,FC Internazionale (ITA),9,1,0,0,0,0,FW
+103,KRAMARIC Andrej,0,Croatia,TSG 1899 Hoffenheim (GER),10,2,0,0,0,0,FW
+104,KALINIC Nikola,0,Croatia,AC Milan (ITA),5,0,0,0,0,0,FW
+105,MANDZUKIC Mario,0,Croatia,Juventus FC (ITA),6,3,0,0,0,0,FW
+106,PJACA Marko,0,Croatia,FC Schalke 04 (GER),7,1,0,0,0,0,FW
+107,KALINIC Lovre,0,Croatia,KAA Gent (BEL),1,8,0,0,0,0,GK
+108,RAKITIC Ivan,0,Croatia,FC Barcelona (ESP),6,9,0,0,0,0,MF
+109,BROZOVIC Marcelo,0,Croatia,FC Internazionale (ITA),7,7,0,0,0,0,MF
+110,STONES John,0,England,Manchester City FC (ENG),2,10,0,0,0,0,DF
+111,MAGUIRE Harry,0,England,Leicester City FC (ENG),0,5,0,0,0,0,DF
+112,TRIPPIER Kieran,0,England,Tottenham Hotspur FC (ENG),3,6,0,0,0,0,DF
+113,YOUNG Ashley,0,England,Manchester United FC (ENG),1,7,0,0,0,0,DF
+114,ALEXANDER-ARNOLD Trent,0,England,Liverpool FC (ENG),2,8,0,0,0,0,DF
+115,KANE Harry,0,England,Tottenham Hotspur FC (ENG),8,2,0,0,0,0,FW
+116,VARDY Jamie,0,England,Leicester City FC (ENG),9,0,0,0,0,0,FW
+117,RASHFORD Marcus,0,England,Manchester United FC (ENG),10,3,0,0,0,0,FW
+118,BUTLAND Jack,0,England,Stoke City FC (ENG),3,7,0,0,0,0,GK
+119,DIER Eric,0,England,Tottenham Hotspur FC (ENG),8,8,0,0,0,0,MF
+120,HENDERSON Jordan,0,England,Liverpool FC (ENG),9,10,0,0,0,0,MF
+121,ALLI Dele,0,England,Tottenham Hotspur FC (ENG),10,6,0,0,0,0,MF
+122,VARANE Raphael,0,France,Real Madrid CF (ESP),0,9,0,0,0,0,DF
+123,SIDIBE Djibril,0,France,AS Monaco (FRA),3,10,0,0,0,0,DF
+124,MENDY Benjamin,0,France,Manchester City FC (ENG),1,5,0,0,0,0,DF
+125,GRIEZMANN Antoine,0,France,Atletico Madrid (ESP),5,1,0,0,0,0,FW
+126,MBAPPE Kylian,0,France,Paris Saint-Germain FC (FRA),6,2,0,0,0,0,FW
+127,DEMBELE Ousmane,0,France,FC Barcelona (ESP),7,0,0,0,0,0,FW
+128,FEKIR Nabil,0,France,Olympique Lyon (FRA),8,3,0,0,0,0,FW
+129,THAUVIN Florian,0,France,Olympique Marseille (FRA),9,1,0,0,0,0,FW
+130,POGBA Paul,0,France,Manchester United FC (ENG),5,5,0,0,0,0,MF
+131,TOLISSO Corentin,0,France,FC Bayern München (GER),6,9,0,0,0,0,MF
+132,KANTE Ngolo,0,France,Chelsea FC (ENG),7,7,0,0,0,0,MF
+133,MATUIDI Blaise,0,France,Juventus FC (ITA),8,9,0,0,0,0,MF
+134,HECTOR Jonas,0,Germany,1. FC Köln (GER),2,6,0,0,0,0,DF
+135,HUMMELS Mats,0,Germany,FC Bayern München (GER),0,7,0,0,0,0,DF
+136,WERNER Timo,0,Germany,RB Leipzig (GER),10,2,0,0,0,0,FW
+137,REUS Marco,0,Germany,Borussia Dortmund (GER),5,0,0,0,0,0,FW
+138,TRAPP Kevin,0,Germany,Paris Saint-Germain FC (FRA),0,10,0,0,0,0,GK
+139,TER STEGEN Marc-Andre,0,Germany,FC Barcelona (ESP),2,9,0,0,0,0,GK
+140,DRAXLER Julian,0,Germany,Paris Saint-Germain FC (FRA),9,8,0,0,0,0,MF
+141,KROOS Toni,0,Germany,Real Madrid CF (ESP),10,6,0,0,0,0,MF
+142,OEZIL Mesut,0,Germany,Arsenal FC (ENG),5,10,0,0,0,0,MF
+143,MUELLER Thomas,0,Germany,FC Bayern München (GER),6,6,0,0,0,0,MF
+144,GORETZKA Leon,0,Germany,FC Schalke 04 (GER),7,7,0,0,0,0,MF
+145,GUENDOGAN Ilkay,0,Germany,Manchester City FC (ENG),8,9,0,0,0,0,MF
+146,AYALA Hugo,0,Mexico,Tigres UANL (MEX),3,8,0,0,0,0,DF
+147,SALCEDO Carlos,0,Mexico,Eintracht Frankfurt (GER),1,9,0,0,0,0,DF
+148,REYES Diego,0,Mexico,FC Porto (POR),2,10,0,0,0,0,DF
+149,HERRERA Hector,0,Mexico,FC Porto (POR),0,5,0,0,0,0,DF
+150,FABIAN Marco,0,Mexico,Eintracht Frankfurt (GER),6,3,0,0,0,0,FW
+151,JIMENEZ Raul,0,Mexico,SL Benfica (POR),7,1,0,0,0,0,FW
+152,VELA Carlos,0,Mexico,Los Angeles FC (USA),8,2,0,0,0,0,FW
+153,PERALTA Oribe,0,Mexico,Club América (MEX),9,0,0,0,0,0,FW
+154,LOZANO Hirving,0,Mexico,PSV Eindhoven (NED),10,3,0,0,0,0,FW
+155,CORONA Jesus,0,Mexico,FC Porto (POR),9,7,0,0,0,0,MF
+156,AQUINO Javier,0,Mexico,Tigres UANL (MEX),10,8,0,0,0,0,MF
+157,GALLARDO Jesus,0,Mexico,Pumas UNAM (MEX),5,10,0,0,0,0,MF
+158,JEDRZEJCZYK Artur,0,Poland,Legia Warsaw (POL),3,6,0,0,0,0,DF
+159,GLIK Kamil,0,Poland,AS Monaco (FRA),1,7,0,0,0,0,DF
+160,BERESZYNSKI Bartosz,0,Poland,UC Sampdoria (ITA),2,8,0,0,0,0,DF
+161,MILIK Arkadiusz,0,Poland,SSC Napoli (ITA),5,1,0,0,0,0,FW
+162,TEODORCZYK Lukasz,0,Poland,RSC Anderlecht (BEL),6,2,0,0,0,0,FW
+163,KOWNACKI Dawid,0,Poland,UC Sampdoria (ITA),7,0,0,0,0,0,FW
+164,FABIANSKI Lukasz,0,Poland,Swansea City AFC (WAL),1,8,0,0,0,0,GK
+165,KRYCHOWIAK Grzegorz,0,Poland,West Bromwich Albion FC (ENG),6,6,0,0,0,0,MF
+166,GROSICKI Kamil,0,Poland,Hull City FC (ENG),7,5,0,0,0,0,MF
+167,BLASZCZYKOWSKI Jakub,0,Poland,VfL Wolfsburg (GER),8,9,0,0,0,0,MF
+168,ZIELINSKI Piotr,0,Poland,SSC Napoli (ITA),9,7,0,0,0,0,MF
+169,KURZAWA Rafal,0,Poland,Gornik Zabrze (POL),10,9,0,0,0,0,MF
+170,BRUNO ALVES,0,Portugal,Rangers FC (SCO),0,9,0,0,0,0,DF
+171,RAPHAEL GUERREIRO,0,Portugal,Borussia Dortmund (GER),3,10,0,0,0,0,DF
+172,CEDRIC,0,Portugal,Southampton FC (ENG),1,5,0,0,0,0,DF
+173,ANDRE SILVA,0,Portugal,AC Milan (ITA),8,3,0,0,0,0,FW
+174,GONCALO GUEDES,0,Portugal,Valencia CF (ESP),9,1,0,0,0,0,FW
+175,GELSON MARTINS,0,Portugal,Sporting CP (POR),10,2,0,0,0,0,FW
+176,RICARDO QUARESMA,0,Portugal,Besiktas JK (TUR),5,0,0,0,0,0,FW
+177,RUI PATRICIO,0,Portugal,Sporting CP (POR),3,7,0,0,0,0,GK
+178,JOAO MARIO,0,Portugal,West Ham United FC (ENG),5,8,0,0,0,0,MF
+179,BERNARDO SILVA,0,Portugal,Manchester City FC (ENG),6,6,0,0,0,0,MF
+180,BRUNO FERNANDES,0,Portugal,Sporting CP (POR),7,10,0,0,0,0,MF
+181,ADRIEN SILVA,0,Portugal,Leicester City FC (ENG),8,6,0,0,0,0,MF
+182,IGNASHEVICH Sergey,0,Russia,CSKA Moscow (RUS),2,5,0,0,0,0,DF
+183,KUDRIASHOV Fedor,0,Russia,FC Rubin Kazan (RUS),0,6,0,0,0,0,DF
+184,SMOLNIKOV Igor,0,Russia,FC Zenit St. Petersburg (RUS),3,7,0,0,0,0,DF
+185,SMOLOV Fedor,0,Russia,FC Krasnodar (RUS),6,3,0,0,0,0,FW
+186,DZYUBA Artem,0,Russia,FC Arsenal Tula (RUS),7,1,0,0,0,0,FW
+187,AKINFEEV Igor,0,Russia,CSKA Moscow (RUS),0,10,0,0,0,0,GK
+188,LUNEV Andrei,0,Russia,FC Zenit St. Petersburg (RUS),2,9,0,0,0,0,GK
+189,GABULOV Vladimir,0,Russia,Club Brugge KV (BEL),1,8,0,0,0,0,GK
+190,KUZIAEV Daler,0,Russia,FC Zenit St. Petersburg (RUS),9,7,0,0,0,0,MF
+191,GAZINSKY Iury,0,Russia,FC Krasnodar (RUS),10,9,0,0,0,0,MF
+192,ZHIRKOV Yury,0,Russia,FC Zenit St. Petersburg (RUS),5,7,0,0,0,0,MF
+193,SAMEDOV Alexander,0,Russia,FC Spartak Moscow (RUS),6,8,0,0,0,0,MF
+194,CARVAJAL Dani,0,Spain,Real Madrid CF (ESP),1,8,0,0,0,0,DF
+195,NACHO,0,Spain,Real Madrid CF (ESP),2,9,0,0,0,0,DF
+196,ODRIOZOLA Alvaro,0,Spain,Real Sociedad (ESP),0,10,0,0,0,0,DF
+197,ALBA Jordi,0,Spain,FC Barcelona (ESP),3,5,0,0,0,0,DF
+198,VAZQUEZ Lucas,0,Spain,Real Madrid CF (ESP),8,2,0,0,0,0,FW
+199,SILVA David,0,Spain,Manchester City FC (ENG),9,0,0,0,0,0,FW
+200,DE GEA David,0,Spain,Manchester United FC (ENG),3,7,0,0,0,0,GK
+201,ARRIZABALAGA Kepa,0,Spain,Athletic Bilbao (ESP),0,10,0,0,0,0,GK
+202,BUSQUETS Sergio,0,Spain,FC Barcelona (ESP),7,10,0,0,0,0,MF
+203,SAUL,0,Spain,Atletico Madrid (ESP),8,6,0,0,0,0,MF
+204,KOKE,0,Spain,Atletico Madrid (ESP),9,5,0,0,0,0,MF
+205,ASENSIO Marco,0,Spain,Real Madrid CF (ESP),10,9,0,0,0,0,MF
+206,AKANJI Manuel,0,Switzerland,Borussia Dortmund (GER),1,6,0,0,0,0,DF
+207,RODRIGUEZ Ricardo,0,Switzerland,AC Milan (ITA),2,7,0,0,0,0,DF
+208,DJOUROU Johan,0,Switzerland,Antalyaspor AS (TUR),0,8,0,0,0,0,DF
+209,EMBOLO Breel,0,Switzerland,FC Schalke 04 (GER),10,3,0,0,0,0,FW
+210,SEFEROVIC Haris,0,Switzerland,SL Benfica (POR),5,1,0,0,0,0,FW
+211,SOMMER Yann,0,Switzerland,VfL Borussia Mönchengladbach (GER),2,9,0,0,0,0,GK
+212,MVOGO Yvon,0,Switzerland,RB Leipzig (GER),1,8,0,0,0,0,GK
+213,BUERKI Roman,0,Switzerland,Borussia Dortmund (GER),3,7,0,0,0,0,GK
+214,FREULER Remo,0,Switzerland,Atalanta Bergamo (ITA),5,7,0,0,0,0,MF
+215,BEHRAMI Valon,0,Switzerland,Udinese Calcio (ITA),6,9,0,0,0,0,MF
+216,ZUBER Steven,0,Switzerland,TSG 1899 Hoffenheim (GER),7,8,0,0,0,0,MF
+217,SHAQIRI Xherdan,0,Switzerland,Stoke City FC (ENG),8,6,0,0,0,0,MF
+218,GIMENEZ Jose,0,Uruguay,Atletico Madrid (ESP),3,9,0,0,0,0,DF
+219,SILVA Gaston,0,Uruguay,CA Independiente (ARG),1,10,0,0,0,0,DF
+220,PEREIRA Maximiliano,0,Uruguay,FC Porto (POR),2,5,0,0,0,0,DF
+221,CACERES Martin,0,Uruguay,SS Lazio (ITA),0,6,0,0,0,0,DF
+222,STUANI Cristhian,0,Uruguay,Girona FC (ESP),5,2,0,0,0,0,FW
+223,MUSLERA Fernando,0,Uruguay,Galatasaray SK (TUR),0,10,0,0,0,0,GK
+224,CAMPANA Martin,0,Uruguay,CA Independiente (ARG),2,9,0,0,0,0,GK
+225,SILVA Martin,0,Uruguay,CR Vasco da Gama (BRA),1,8,0,0,0,0,GK
+226,BENTANCUR Rodrigo,0,Uruguay,Juventus FC (ITA),9,10,0,0,0,0,MF
+227,TORREIRA Lucas,0,Uruguay,UC Sampdoria (ITA),10,6,0,0,0,0,MF
+228,VECINO Matias,0,Uruguay,FC Internazionale (ITA),8,7,0,0,0,0,MF
+229,LAXALT Diego,0,Uruguay,Genoa CFC (ITA),9,9,0,0,0,0,MF
