@@ -1,5 +1,7 @@
 package mps.fifa.model;
 
+import mps.fifa.Constants;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 
@@ -26,8 +28,11 @@ public class PlayerCard extends HumanCard {
     @Column(name = "position")
     private String position;
 
+    public PlayerCard() {
+    }
+
     public PlayerCard(String name,
-                      Integer type,
+                      Constants.CardType type,
                       String nationality,
                       String club,
                       Integer attack,
