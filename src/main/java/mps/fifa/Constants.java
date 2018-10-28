@@ -18,4 +18,10 @@ public class Constants {
         ENEMY_FIELD,
         YOUR_FIELD
     }
+
+    public enum CardType {
+        PLAYER,
+        SPELL,
+        LEADER
+    }
 }
