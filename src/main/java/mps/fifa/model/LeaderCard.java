@@ -1,18 +1,25 @@
 package mps.fifa.model;
 
+import mps.fifa.Constants;
+
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 
 @Entity
 public class LeaderCard extends HumanCard {
     @ManyToOne
+    private
     SpellCard passiveSpell;
 
     @ManyToOne
+    private
     SpellCard activeSpell;
 
+    public LeaderCard() {
+    }
+
     public LeaderCard(String name,
-                      Integer type,
+                      Constants.CardType type,
                       String nationality,
                       String club,
                       SpellCard passiveSpell,
