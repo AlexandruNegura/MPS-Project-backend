@@ -37,8 +37,11 @@ public class SpellCard extends Card {
     @Column(name = "destroy")
     private Boolean destroy;
 
+    public SpellCard() {
+    }
+
     public SpellCard(String name,
-                     Integer type,
+                     Constants.CardType type,
                      Constants.Layer layer,
                      Constants.MoreOrLess moreOrLess,
                      Constants.Target target,
