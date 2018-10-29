@@ -1,10 +1,9 @@
 package mps.fifa.model;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import mps.fifa.Constants;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.MappedSuperclass;
+import javax.persistence.*;
 
 @JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.NONE,
                 setterVisibility = JsonAutoDetect.Visibility.ANY,
@@ -17,7 +16,11 @@ public class Card extends Id{
     private String name;
 
     @Column(name = "type")
-    private Integer type;
+    @Enumerated(EnumType.ORDINAL)
+    private Constants.CardType type;
+
+    public Card() {
+    }
 
     public String getName() {
         return name;
@@ -27,15 +30,15 @@ public class Card extends Id{
         this.name = name;
     }
 
-    public Integer getType() {
+    public Constants.CardType getType() {
         return type;
     }
 
-    public void setType(Integer type) {
+    public void setType(Constants.CardType type) {
         this.type = type;
     }
 
-    public Card(String name, Integer type) {
+    public Card(String name, Constants.CardType type) {
         this.name = name;
         this.type = type;
     }
