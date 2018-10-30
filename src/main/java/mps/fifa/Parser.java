@@ -89,10 +89,10 @@ public class Parser {
                 }
             }
         }
-        
-        
-        /* Debug
-        for (PlayerCard p : playersList) {
+    }
+    
+    public void printParsedData() {
+    	for (PlayerCard p : playersList) {
         	System.out.println(p.getId() + "," + p.getName() + "," + p.getType() + "," + p.getNationality() + "," + p.getClub() + "," +
         			p.getAttack() + "," + p.getDefense() + "," + p.getNationalityAttackModifier() + "," + p.getNationalityDefenseModifier()
         			+ "," + p.getClubAttackModifier() +"," + p.getClubDefenseModifier() + "," + p.getPosition());
@@ -113,7 +113,6 @@ public class Parser {
         			l.getNationality() + "," + l.getClub() + "," + l.getClub() + "," + l.getPassiveSpell() + "," +
         			l.getActiveSpell());
         }
-        */
     }
     
     public void sendParsedDataToDatabase() {
