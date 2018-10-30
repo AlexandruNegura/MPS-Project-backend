@@ -23,9 +23,6 @@ public class CardServiceImpl implements CardService {
     @Autowired
     private SpellCardRepo spellCardRepo;
 
-
-    //TODO: @AlexandruMilitaru astea 3 functii le vei folosi sa salvezi in baza de date entitatile
-
     @Override
     public void addPlayerCards(List<PlayerCard> cards) {
         playerCardRepo.saveAll(cards);
