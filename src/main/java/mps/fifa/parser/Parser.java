@@ -1,24 +1,25 @@
-package mps.fifa;
+package mps.fifa.parser;
 
+import mps.fifa.Constants;
 import mps.fifa.model.LeaderCard;
 import mps.fifa.model.PlayerCard;
 import mps.fifa.model.SpellCard;
 import mps.fifa.service.CardService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.context.event.ApplicationReadyEvent;
+import org.springframework.context.ApplicationListener;
+import org.springframework.context.annotation.Profile;
+import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.List;
 
-import javax.persistence.Entity;
-
 @Component
-public class Parser {
+public class Parser{
     @Autowired
     private CardService cardService;
     
@@ -42,15 +43,15 @@ public class Parser {
         String cvsSplitBy = ",";
         
         try {
-        	br = new BufferedReader(new FileReader(csvFile));
+        	br = new BufferedReader(new InputStreamReader(new FileInputStream(csvFile), StandardCharsets.UTF_8));
             while ((line = br.readLine()) != null) {
                 String[] lineParsed = line.split(cvsSplitBy);
                 if (lineParsed[2].equals("0")) {
                 	PlayerCard newPlayerCard = new PlayerCard(lineParsed[1], Constants.CardType.PLAYER,
-                			lineParsed[3], lineParsed[4], Integer.parseInt(lineParsed[5]), 
-                			Integer.parseInt(lineParsed[6]), Integer.parseInt(lineParsed[7]), 
-                			Integer.parseInt(lineParsed[8]), Integer.parseInt(lineParsed[9]), 
-                			Integer.parseInt(lineParsed[10]), lineParsed[11]);
+                                                              lineParsed[3], lineParsed[4], Integer.parseInt(lineParsed[5]),
+                                                              Integer.parseInt(lineParsed[6]), Integer.parseInt(lineParsed[7]),
+                                                              Integer.parseInt(lineParsed[8]), Integer.parseInt(lineParsed[9]),
+                                                              Integer.parseInt(lineParsed[10]), lineParsed[11]);
                 	newPlayerCard.setId(Long.parseLong(lineParsed[0]));
                 	
                 	playersList.add(newPlayerCard);
@@ -120,4 +121,5 @@ public class Parser {
     	cardService.addLeaderCards(leadersList);
     	cardService.addPlayerCards(playersList);
     }
+
 }

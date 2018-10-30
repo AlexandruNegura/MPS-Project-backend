@@ -5,6 +5,7 @@ import mps.fifa.model.Card;
 import mps.fifa.model.LeaderCard;
 import mps.fifa.model.PlayerCard;
 import mps.fifa.model.SpellCard;
+import mps.fifa.parser.Parser;
 import mps.fifa.service.CardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -21,6 +22,9 @@ public class CardController {
 
     @Autowired
     private CardService cardService;
+
+    @Autowired
+    private Parser parser;
 
     @RequestMapping("/")
     String index() {
@@ -43,4 +47,10 @@ public class CardController {
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
+    @GetMapping(value = "/populate-db")
+    void populateDb() {
+        parser.parse(this.getClass().getClassLoader().getResource("CSV_all.csv").getPath());
+        parser.printParsedData();
+        parser.sendParsedDataToDatabase();
+    }
 }
