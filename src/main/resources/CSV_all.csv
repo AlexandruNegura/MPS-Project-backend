@@ -50,7 +50,7 @@
 69,BATSHUAYI Michy,0,Belgium,Borussia Dortmund (GER),8,2,0,0,0,0,FW
 70,COURTOIS Thibaut,0,Belgium,Chelsea FC (ENG),2,9,0,0,0,0,GK
 71,FELLAINI Marouane,0,Belgium,Manchester United FC (ENG),10,9,0,0,0,0,MF
-72,HAZARD Thorgan,0,Belgium,VfL Borussia Mönchengladbach (GER),5,7,0,0,0,0,MF
+72,HAZARD Thorgan,0,Belgium,VfL Borussia Monchengladbach (GER),5,7,0,0,0,0,MF
 73,TIELEMANS Youri,0,Belgium,AS Monaco (FRA),6,9,0,0,0,0,MF
 74,MIRANDA,0,Brazil,FC Internazionale (ITA),1,9,0,0,0,0,DF
 75,FILIPE LUIS,0,Brazil,Atletico Madrid (ESP),2,10,0,0,0,0,DF
@@ -109,11 +109,11 @@
 128,FEKIR Nabil,0,France,Olympique Lyon (FRA),8,3,0,0,0,0,FW
 129,THAUVIN Florian,0,France,Olympique Marseille (FRA),9,1,0,0,0,0,FW
 130,POGBA Paul,0,France,Manchester United FC (ENG),5,5,0,0,0,0,MF
-131,TOLISSO Corentin,0,France,FC Bayern München (GER),6,9,0,0,0,0,MF
+131,TOLISSO Corentin,0,France,FC Bayern Munchen (GER),6,9,0,0,0,0,MF
 132,KANTE Ngolo,0,France,Chelsea FC (ENG),7,7,0,0,0,0,MF
 133,MATUIDI Blaise,0,France,Juventus FC (ITA),8,9,0,0,0,0,MF
-134,HECTOR Jonas,0,Germany,1. FC Köln (GER),2,6,0,0,0,0,DF
-135,HUMMELS Mats,0,Germany,FC Bayern München (GER),0,7,0,0,0,0,DF
+134,HECTOR Jonas,0,Germany,1. FC Koln (GER),2,6,0,0,0,0,DF
+135,HUMMELS Mats,0,Germany,FC Bayern Munchen (GER),0,7,0,0,0,0,DF
 136,WERNER Timo,0,Germany,RB Leipzig (GER),10,2,0,0,0,0,FW
 137,REUS Marco,0,Germany,Borussia Dortmund (GER),5,0,0,0,0,0,FW
 138,TRAPP Kevin,0,Germany,Paris Saint-Germain FC (FRA),0,10,0,0,0,0,GK
@@ -121,7 +121,7 @@
 140,DRAXLER Julian,0,Germany,Paris Saint-Germain FC (FRA),9,8,0,0,0,0,MF
 141,KROOS Toni,0,Germany,Real Madrid CF (ESP),10,6,0,0,0,0,MF
 142,OEZIL Mesut,0,Germany,Arsenal FC (ENG),5,10,0,0,0,0,MF
-143,MUELLER Thomas,0,Germany,FC Bayern München (GER),6,6,0,0,0,0,MF
+143,MUELLER Thomas,0,Germany,FC Bayern Munchen (GER),6,6,0,0,0,0,MF
 144,GORETZKA Leon,0,Germany,FC Schalke 04 (GER),7,7,0,0,0,0,MF
 145,GUENDOGAN Ilkay,0,Germany,Manchester City FC (ENG),8,9,0,0,0,0,MF
 146,AYALA Hugo,0,Mexico,Tigres UANL (MEX),3,8,0,0,0,0,DF
@@ -131,7 +131,7 @@
 150,FABIAN Marco,0,Mexico,Eintracht Frankfurt (GER),6,3,0,0,0,0,FW
 151,JIMENEZ Raul,0,Mexico,SL Benfica (POR),7,1,0,0,0,0,FW
 152,VELA Carlos,0,Mexico,Los Angeles FC (USA),8,2,0,0,0,0,FW
-153,PERALTA Oribe,0,Mexico,Club América (MEX),9,0,0,0,0,0,FW
+153,PERALTA Oribe,0,Mexico,Club America (MEX),9,0,0,0,0,0,FW
 154,LOZANO Hirving,0,Mexico,PSV Eindhoven (NED),10,3,0,0,0,0,FW
 155,CORONA Jesus,0,Mexico,FC Porto (POR),9,7,0,0,0,0,MF
 156,AQUINO Javier,0,Mexico,Tigres UANL (MEX),10,8,0,0,0,0,MF
@@ -189,7 +189,7 @@
 208,DJOUROU Johan,0,Switzerland,Antalyaspor AS (TUR),0,8,0,0,0,0,DF
 209,EMBOLO Breel,0,Switzerland,FC Schalke 04 (GER),10,3,0,0,0,0,FW
 210,SEFEROVIC Haris,0,Switzerland,SL Benfica (POR),5,1,0,0,0,0,FW
-211,SOMMER Yann,0,Switzerland,VfL Borussia Mönchengladbach (GER),2,9,0,0,0,0,GK
+211,SOMMER Yann,0,Switzerland,VfL Borussia Monchengladbach (GER),2,9,0,0,0,0,GK
 212,MVOGO Yvon,0,Switzerland,RB Leipzig (GER),1,8,0,0,0,0,GK
 213,BUERKI Roman,0,Switzerland,Borussia Dortmund (GER),3,7,0,0,0,0,GK
 214,FREULER Remo,0,Switzerland,Atalanta Bergamo (ITA),5,7,0,0,0,0,MF
@@ -216,9 +216,9 @@
 255,MODRIC Luka,1,Croatia,Real Madrid CF (ESP),10,11
 256,WALKER Kyle,1,England,Manchester City FC (ENG),12,13
 257,LLORIS Hugo,1,France,Tottenham Hotspur FC (ENG),14,15
-258,NEUER Manuel,1,Germany,FC Bayern München (GER),16,17
-259,OCHOA Guillermo,1,Mexico,Standard Liège (BEL),18,19
-260,LEWANDOWSKI Robert,1,Poland,FC Bayern München (GER),20,21
+258,NEUER Manuel,1,Germany,FC Bayern Munchen (GER),16,17
+259,OCHOA Guillermo,1,Mexico,Standard Liege (BEL),18,19
+260,LEWANDOWSKI Robert,1,Poland,FC Bayern Munchen (GER),20,21
 261,CRISTIANO RONALDO,1,Portugal,Real Madrid CF (ESP),22,23
 262,GOLOVIN Aleksandr,1,Russia,CSKA Moscow (RUS),24,25
 263,RAMOS Sergio,1,Spain,Real Madrid CF (ESP),26,27
