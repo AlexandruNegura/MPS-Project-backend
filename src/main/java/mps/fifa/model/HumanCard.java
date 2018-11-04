@@ -1,5 +1,7 @@
 package mps.fifa.model;
 
+import mps.fifa.Constants;
+
 import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
 
@@ -27,7 +29,10 @@ public class HumanCard extends Card{
         this.club = club;
     }
 
-    public HumanCard(String name, Integer type, String nationality, String club) {
+    public HumanCard() {
+    }
+
+    public HumanCard(String name, Constants.CardType type, String nationality, String club) {
         super(name, type);
         this.nationality = nationality;
         this.club = club;
