@@ -1,4 +1,4 @@
-# MPS-Project-backend
+# Soccer Card Game Backend
 Backend for a soccer card game
 
 ## Details
